@@ -1,0 +1,74 @@
+
+.wrapper footer .footer_wrapper .footer-info .footer-social ul li a 
+	{
+		
+		behavior: url(pie/PIE.htc);
+
+	}
+.ie7 .wrapper .header_wrapper header nav ul li 
+	{
+		
+		display: inline-block;
+		zoom:1;
+		*display:inline;
+	}
+.ie7 .wrapper .sell_wrapper .sell-info .sell-box .sell-title
+	{
+		width: 265px;
+
+	}	 
+.ie7 .wrapper .sell_wrapper .sell-info 
+	{
+		margin-bottom: 10px;
+	}		
+.ie7 .wrapper .feedback_wrapper .feedback-container .feedback-link form 
+	{
+		display: inline-block;
+		zoom:1;
+		*display:inline;
+	}
+
+.ie7 .wrapper .about_wrapper .about-info .about-box .about-img
+	{
+		position: relative;
+		left: 50%;
+		
+	}	
+.ie7 .wrapper .about_wrapper .about-info .about-box img 
+	{
+		
+		 bottom: 10px;
+	    display: block;
+	  	position: absolute;
+	    left: -10%;
+	}	
+.ie7 .wrapper .about_wrapper .about-info 
+	{
+		overflow: hidden;
+	}	
+
+
+.ie7 .wrapper .about_wrapper .about-info
+	{
+		padding-bottom: 12px;
+	}	
+
+
+.wrapper .brand_wrapper .brand-list-1, .wrapper .brand_wrapper .brand-list-2 
+	{
+		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; filter: alpha(opacity=0);
+	}
+.wrapper .sell_wrapper .sell-meta
+	{
+		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; filter: alpha(opacity=0);
+	}
+
+.wrapper .reviews_wrapper .reviews-person 
+	{
+		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; filter: alpha(opacity=0);
+	}		
+.wrapper .reviews_wrapper .reviews-container
+	{
+		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; filter: alpha(opacity=0);
+	}
+

@@ -1,0 +1,427 @@
+@media screen and (max-width: 1260px) {
+  /* line 4, sass/adaptive.scss */
+  .wrapper .header_wrapper header .header-top .header-container {
+    width: 94%;
+    margin: 0 3% 0; }
+
+  /* line 10, sass/adaptive.scss */
+  .wrapper .header_wrapper header .header-info .info-terms {
+    width: 94%;
+    margin: 0 3% 0; }
+
+  /* line 15, sass/adaptive.scss */
+  .wrapper .header_wrapper header .header-info .info-terms .info-box {
+    width: 24%; }
+
+  /* line 24, sass/adaptive.scss */
+  .wrapper .header_wrapper header .header-info .info-terms button {
+    display: block;
+    margin: 0 auto 0;
+    float: none; }
+
+  /* line 30, sass/adaptive.scss */
+  .wrapper .brand_wrapper ul {
+    width: 94%;
+    margin: 0 3% 0;
+    text-align: center; }
+
+  /* line 36, sass/adaptive.scss */
+  .wrapper .brand_wrapper ul li {
+    display: inline-block;
+    float: none; }
+
+  /* line 41, sass/adaptive.scss */
+  .wrapper .about_wrapper .about-info {
+    width: 94%;
+    margin: 0 3% 0; }
+
+  /* line 46, sass/adaptive.scss */
+  .wrapper .about_wrapper .about-info .about-box {
+    width: 24%; }
+
+  /* line 50, sass/adaptive.scss */
+  .wrapper .about_wrapper .about-info .about-box ~ .about-box {
+    margin-left: 1%; }
+
+  /* line 54, sass/adaptive.scss */
+  .wrapper .reviews_wrapper .reviews-person {
+    width: 94%;
+    margin: 0 3% 15px; }
+
+  /* line 59, sass/adaptive.scss */
+  .wrapper .reviews_wrapper .reviews-person .reviews_img {
+    width: 23%;
+    height: auto; }
+
+  /* line 64, sass/adaptive.scss */
+  .wrapper .reviews_wrapper .reviews-person .reviews_img ~ .reviews_img {
+    margin-left: 2%; }
+
+  /* line 68, sass/adaptive.scss */
+  .wrapper .reviews_wrapper .reviews-person .reviews_img img {
+    width: 100%;
+    height: auto; }
+
+  /* line 73, sass/adaptive.scss */
+  .wrapper .reviews_wrapper .reviews-person .reviews_img .reviews-meta {
+    width: 95%;
+    padding-left: 5%; }
+
+  /* line 78, sass/adaptive.scss */
+  .wrapper .reviews_wrapper .reviews-container {
+    width: 94%;
+    margin: 0 3% 0; }
+
+  /* line 83, sass/adaptive.scss */
+  .wrapper .sell_wrapper .sell-info {
+    width: 94%;
+    margin: 0 3% 0; }
+
+  /* line 88, sass/adaptive.scss */
+  .wrapper .sell_wrapper .sell-info .sell-box {
+    width: 24%; }
+
+  /* line 93, sass/adaptive.scss */
+  .wrapper .sell_wrapper .sell-info .sell-box ~ .sell-box {
+    margin-left: 1%; }
+
+  /* line 97, sass/adaptive.scss */
+  .wrapper .sell_wrapper .sell-info .sell-box img {
+    width: 100%;
+    height: auto; }
+
+  /* line 102, sass/adaptive.scss */
+  .wrapper .sell_wrapper .sell-meta {
+    width: 94%;
+    margin: 0 3% 0; }
+
+  /* line 107, sass/adaptive.scss */
+  .wrapper .sell_wrapper .sell-meta button {
+    margin-right: 1%; }
+
+  /* line 111, sass/adaptive.scss */
+  .wrapper .sell_wrapper .sell-meta .sell-link {
+    float: left; }
+
+  /* line 116, sass/adaptive.scss */
+  .wrapper .feedback_wrapper .feedback-container {
+    width: 94%;
+    margin: 0 3% 0; }
+
+  /* line 122, sass/adaptive.scss */
+  .wrapper .feedback_wrapper .feedback-container .feedback-info {
+    width: 49%; }
+
+  /* line 126, sass/adaptive.scss */
+  .wrapper .feedback_wrapper .feedback-container .feedback-link {
+    width: 49%; }
+
+  /* line 131, sass/adaptive.scss */
+  .privacy-modal .privacy-window {
+    width: 90%;
+    padding: 0 2% 0;
+    left: 0;
+    left: 50%;
+    margin-left: -47%;
+    overflow-y: scroll; }
+
+  /* line 142, sass/adaptive.scss */
+  .wrapper footer .footer_wrapper .footer-info {
+    width: 94%;
+    margin: 0 3% 0; }
+
+  /* line 147, sass/adaptive.scss */
+  .wrapper footer .footer_wrapper .footer-info .footer-social ul {
+    margin-left: 18%; }
+
+  /* line 151, sass/adaptive.scss */
+  .wrapper .header_wrapper header .header-info .info-terms .info-box {
+    margin-bottom: 10px; }
+
+  /* line 155, sass/adaptive.scss */
+  .wrapper .header_wrapper.price header .header-back {
+    width: 94%;
+    margin: 0 auto; }
+
+  /* line 160, sass/adaptive.scss */
+  .wrapper .header_wrapper.price header .header-price {
+    width: 100%; }
+
+  /* line 165, sass/adaptive.scss */
+  .wrapper .brand_wrapper ul li ~ li {
+    margin-left: 0; } }
+@media screen and (max-width: 1000px) {
+  /* line 172, sass/adaptive.scss */
+  .wrapper .header_wrapper header .header-info .info-terms {
+    text-align: center; }
+
+  /* line 176, sass/adaptive.scss */
+  .wrapper .header_wrapper header .header-info .info-terms .info-box {
+    width: 288px;
+    display: inline-block;
+    float: none;
+    margin-bottom: 10px; }
+
+  /* line 183, sass/adaptive.scss */
+  .wrapper .about_wrapper .about-info {
+    text-align: center; }
+
+  /* line 187, sass/adaptive.scss */
+  .wrapper .about_wrapper .about-info .about-box {
+    width: 288px;
+    display: inline-block;
+    float: none; }
+
+  /* line 194, sass/adaptive.scss */
+  .wrapper .reviews_wrapper .reviews-person {
+    text-align: center; }
+
+  /* line 198, sass/adaptive.scss */
+  .wrapper .reviews_wrapper .reviews-person .reviews_img {
+    width: auto;
+    margin-bottom: 15px;
+    display: inline-block;
+    float: none;
+    margin-left: 0; }
+
+  /* line 210, sass/adaptive.scss */
+  .wrapper .sell_wrapper .sell-info {
+    text-align: center; }
+
+  /* line 214, sass/adaptive.scss */
+  .wrapper .reviews_wrapper .reviews-person .reviews_img img {
+    width: 290px;
+    height: 300px; }
+
+  /* line 219, sass/adaptive.scss */
+  .wrapper .sell_wrapper .sell-info .sell-box {
+    width: auto;
+    display: inline-block;
+    float: none;
+    vertical-align: top; }
+
+  /* line 226, sass/adaptive.scss */
+  .wrapper .sell_wrapper .sell-info .sell-box img {
+    height: 300px;
+    width: 290px; }
+
+  /* line 231, sass/adaptive.scss */
+  .wrapper .sell_wrapper .sell-meta button {
+    margin: auto;
+    float: none;
+    display: block; }
+
+  /* line 238, sass/adaptive.scss */
+  .wrapper .sell_wrapper .sell-meta .sell-link {
+    width: 100%;
+    float: none;
+    text-align: center; }
+
+  /* line 244, sass/adaptive.scss */
+  .wrapper .sell_wrapper .sell-meta .sell-link {
+    width: 97%;
+    padding: 0 27px 1% 2%; }
+
+  /* line 249, sass/adaptive.scss */
+  .wrapper footer .footer_wrapper .footer-info .footer-social {
+    float: right; }
+
+  /* line 253, sass/adaptive.scss */
+  .wrapper footer .footer_wrapper .footer-info {
+    text-align: center; }
+
+  /* line 258, sass/adaptive.scss */
+  .wrapper footer .footer_wrapper .footer-info .footer-copyright {
+    clear: both;
+    width: 100%;
+    text-align: center;
+    float: none;
+    padding-top: 15px; }
+
+  /* line 272, sass/adaptive.scss */
+  .wrapper .sell_wrapper .sell-meta .sell-link {
+    margin-top: 15px; }
+
+  /* line 276, sass/adaptive.scss */
+  .wrapper .about_wrapper .about-info .about-box ~ .about-box {
+    margin-left: 0; }
+
+  /* line 281, sass/adaptive.scss */
+  .wrapper .sell_wrapper .sell-info .sell-box ~ .sell-box {
+    margin-left: 0; }
+
+  /* line 285, sass/adaptive.scss */
+  .wrapper .reviews_wrapper .reviews-container .reviews-private {
+    padding: 0 0 20px; }
+
+  /* line 289, sass/adaptive.scss */
+  .wrapper .reviews_wrapper .reviews-container .reviews-private p {
+    margin-top: 5px; }
+
+  /* line 294, sass/adaptive.scss */
+  .wrapper .reviews_wrapper .reviews-person {
+    width: 290px;
+    float: left; }
+
+  /* line 299, sass/adaptive.scss */
+  .wrapper .reviews_wrapper .reviews-person .reviews_img {
+    display: block;
+    width: 100%; }
+
+  /* line 304, sass/adaptive.scss */
+  .wrapper .reviews_wrapper .reviews-person .reviews_img img {
+    width: 100%; }
+
+  /* line 308, sass/adaptive.scss */
+  .wrapper .reviews_wrapper .reviews-container {
+    width: 45%;
+    float: left; }
+
+  /* line 313, sass/adaptive.scss */
+  .wrapper .reviews_wrapper .reviews-container .reviews-private {
+    display: block;
+    height: 375px; } }
+@media screen and (max-width: 768px) {
+  /* line 327, sass/adaptive.scss */
+  .wrapper .header_wrapper header .header-top .header-container {
+    padding: 15px 0 26px; }
+
+  /* line 331, sass/adaptive.scss */
+  .wrapper .header_wrapper header .header-top .header-container .header-logo {
+    float: none;
+    width: 100%;
+    text-align: center; }
+
+  /* line 337, sass/adaptive.scss */
+  .wrapper .header_wrapper header .header-top .header-container .header-logo a {
+    margin: 0 auto; }
+
+  /* line 341, sass/adaptive.scss */
+  .wrapper .header_wrapper header .header-top .header-container .header-link {
+    float: none;
+    width: 100%;
+    text-align: center; }
+
+  /* line 347, sass/adaptive.scss */
+  .wrapper footer .footer_wrapper .footer-info .footer-social ul {
+    margin-left: 0; }
+
+  /* line 351, sass/adaptive.scss */
+  .wrapper footer .footer_wrapper .footer-info .footer-logo {
+    width: 100%;
+    text-align: center; }
+
+  /* line 356, sass/adaptive.scss */
+  .wrapper footer .footer_wrapper {
+    padding: 15px 0 10px; }
+
+  /* line 360, sass/adaptive.scss */
+  .wrapper footer .footer_wrapper .footer-info .footer-social {
+    float: none;
+    text-align: center;
+    clear: both;
+    padding-top: 10px; }
+
+  /* line 367, sass/adaptive.scss */
+  .wrapper footer .footer_wrapper .footer-info .footer-social ul li {
+    float: none;
+    display: inline-block; }
+
+  /* line 372, sass/adaptive.scss */
+  .privacy-modal .privacy-window h3 {
+    margin-top: 30px; }
+
+  /* line 376, sass/adaptive.scss */
+  .price-modal .price-window {
+    width: 70%;
+    margin-left: -35%; }
+
+  /* line 381, sass/adaptive.scss */
+  .price-modal .price-window .feedback-link {
+    width: 98%; }
+
+  /* line 385, sass/adaptive.scss */
+  .wrapper .header_wrapper.price header .header-price {
+    height: auto;
+    padding-bottom: 50px; }
+
+  /* line 390, sass/adaptive.scss */
+  .wrapper .header_wrapper.price header .header-back a {
+    float: none;
+    display: block;
+    margin: 11px auto; }
+
+  /* line 396, sass/adaptive.scss */
+  .wrapper .header_wrapper header nav ul li {
+    margin-right: 10px;
+    padding-left: 25px; }
+
+  /* line 402, sass/adaptive.scss */
+  .wrapper .reviews_wrapper .reviews-container {
+    margin: 0 1%; }
+
+  /* line 407, sass/adaptive.scss */
+  .wrapper .reviews_wrapper .reviews-person {
+    width: 40%; }
+
+  /* line 411, sass/adaptive.scss */
+  .wrapper .reviews_wrapper .reviews-person .reviews_img img {
+    width: 100%;
+    height: 100%; } }
+@media screen and (max-width: 560px) {
+  /* line 419, sass/adaptive.scss */
+  .wrapper .sell_wrapper .sell-meta .sell-link p {
+    width: 100%;
+    float: none; }
+
+  /* line 424, sass/adaptive.scss */
+  .wrapper .sell_wrapper .sell-meta .sell-link .sell-phone {
+    float: none;
+    width: 100%;
+    text-align: center; }
+
+  /* line 430, sass/adaptive.scss */
+  .wrapper .feedback_wrapper .feedback-container .feedback-info {
+    width: 99%; }
+
+  /* line 434, sass/adaptive.scss */
+  .wrapper .feedback_wrapper .feedback-container .feedback-link {
+    width: 99%; }
+
+  /* line 438, sass/adaptive.scss */
+  .wrapper .reviews_wrapper .reviews-person .reviews_img .reviews-meta p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.2; } }
+@media screen and (max-width: 500px) {
+  /* line 448, sass/adaptive.scss */
+  .wrapper .header_wrapper header .header-top .header-container .header-logo a {
+    width: 85%; }
+
+  /* line 452, sass/adaptive.scss */
+  .wrapper .header_wrapper header .header-top .header-container .header-logo a img {
+    width: 100%; }
+
+  /* line 456, sass/adaptive.scss */
+  .wrapper .header_wrapper header nav ul li {
+    width: 100%;
+    margin-right: 0;
+    padding-left: 0;
+    background-image: none; }
+
+  /* line 463, sass/adaptive.scss */
+  .wrapper .header_wrapper header nav ul li ~ li {
+    background-image: none; }
+
+  /* line 467, sass/adaptive.scss */
+  .wrapper footer .footer_wrapper .footer-info .footer-logo a img {
+    width: 100%; }
+
+  /* line 471, sass/adaptive.scss */
+  .price-modal .price-window {
+    width: 335px;
+    margin-left: -167.5px; }
+
+  /* line 476, sass/adaptive.scss */
+  .wrapper .header_wrapper.price header .header-price {
+    margin-top: 15px; } }

@@ -1,0 +1,484 @@
+@media screen and (max-width:1260px)
+	{
+		.wrapper .header_wrapper header .header-top .header-container
+			{
+				width: 94%;
+				margin: 0 3% 0;
+			}
+
+		.wrapper .header_wrapper header .header-info .info-terms 
+			{
+				width: 94%;
+				margin: 0 3% 0;
+			}	
+		.wrapper .header_wrapper header .header-info .info-terms .info-box 
+			{
+				width: 24%;
+
+			}	
+		// .wrapper .header_wrapper header .header-info .info-terms .info-box ~ .info-box
+		// 	{
+		// 		margin-left: 1%;
+		// 	}
+		.wrapper .header_wrapper header .header-info .info-terms button 
+			{
+				display: block;
+				margin: 0 auto 0;
+				float: none;
+			}	
+		.wrapper .brand_wrapper ul
+				{
+					width: 94%;
+					margin: 0 3% 0;
+					text-align: center;
+				}	
+		.wrapper .brand_wrapper ul li
+			{
+				display: inline-block;
+				float: none;
+			}
+		.wrapper .about_wrapper .about-info
+			{
+				width: 94%;
+				margin: 0 3% 0;
+			}
+		.wrapper .about_wrapper .about-info .about-box
+			{
+				width: 24%;
+			}
+		.wrapper .about_wrapper .about-info .about-box ~ .about-box
+			{
+				margin-left: 1%;
+			}
+		.wrapper .reviews_wrapper .reviews-person 
+			{
+				width: 94%;
+				margin: 0 3% 15px;
+			}
+		.wrapper .reviews_wrapper .reviews-person .reviews_img 
+			{
+				width: 23%;
+				height: auto;
+			}	
+		.wrapper .reviews_wrapper .reviews-person .reviews_img ~ .reviews_img
+			{
+				margin-left: 2%;
+			}	
+		.wrapper .reviews_wrapper .reviews-person .reviews_img img
+			{
+				width: 100%;
+				height: auto;
+			}	
+		.wrapper .reviews_wrapper .reviews-person .reviews_img .reviews-meta
+			{
+				width: 95%;
+				padding-left: 5%;
+			}	
+		.wrapper .reviews_wrapper .reviews-container
+			{
+				width: 94%;
+				margin: 0 3% 0;
+			}	
+		.wrapper .sell_wrapper .sell-info 
+			{
+				width: 94%;
+				margin: 0 3% 0;
+			}	
+		.wrapper .sell_wrapper .sell-info .sell-box
+			{
+				width: 24%;
+			}						
+				
+		.wrapper .sell_wrapper .sell-info .sell-box ~ .sell-box
+			{
+				margin-left: 1%;
+			}	
+		.wrapper .sell_wrapper .sell-info .sell-box img
+			{
+				width: 100%;
+				height: auto;
+			}	
+		.wrapper .sell_wrapper .sell-meta
+			{
+				width: 94%;
+				margin: 0 3% 0;
+			}	
+		.wrapper .sell_wrapper .sell-meta button 
+			{
+				margin-right: 1%;
+			}
+		.wrapper .sell_wrapper .sell-meta .sell-link
+			{
+				float: left;
+			}	
+
+		.wrapper .feedback_wrapper .feedback-container 
+			{
+				width: 94%;
+				margin: 0 3% 0;
+			}			
+
+		.wrapper .feedback_wrapper .feedback-container .feedback-info
+			{
+				width: 49%;
+			}
+		.wrapper .feedback_wrapper .feedback-container .feedback-link 
+			{
+				width: 49%;
+			}	
+
+		.privacy-modal .privacy-window 
+			{
+				width: 90%;
+				padding: 0 2% 0;
+				left: 0;
+				left: 50%;
+				margin-left: -47%;
+				overflow-y: scroll;
+				
+
+			}	
+		.wrapper footer .footer_wrapper .footer-info
+			{
+				width: 94%;
+				margin: 0 3% 0;
+			}	
+		.wrapper footer .footer_wrapper .footer-info .footer-social ul
+			{
+				margin-left: 18%;
+			}	
+		.wrapper .header_wrapper header .header-info .info-terms .info-box 
+			{
+				margin-bottom: 10px;
+			}	
+		.wrapper .header_wrapper.price header .header-back
+			{
+				width: 94%;
+				margin: 0 auto;
+			}	
+		.wrapper .header_wrapper.price header .header-price
+			{
+				width: 100%;
+			}
+
+			.wrapper .brand_wrapper ul li ~ li
+				{
+					margin-left: 0;
+				}	
+	}
+@media screen and (max-width:1000px)
+	{	
+		.wrapper .header_wrapper header .header-info .info-terms 
+			{
+				text-align: center
+			}
+		.wrapper .header_wrapper header .header-info .info-terms .info-box
+			{
+				  width: 288px;
+				  display: inline-block;
+				  float: none;
+				  margin-bottom: 10px;
+			}
+		.wrapper .about_wrapper .about-info 
+			{
+				text-align: center;
+			}	
+		.wrapper .about_wrapper .about-info .about-box
+			{
+				width:288px;
+				display: inline-block;
+				float: none;
+
+			}
+		.wrapper .reviews_wrapper .reviews-person 
+			{
+				text-align: center;
+			}	
+		.wrapper .reviews_wrapper .reviews-person .reviews_img
+			{
+				width: auto;
+				margin-bottom: 15px;
+				display: inline-block;
+				float: none;
+				margin-left: 0;
+			}	
+		.wrapper .reviews_wrapper .reviews-person .reviews_img ~ .reviews_img
+			{
+
+			}	
+		.wrapper .sell_wrapper .sell-info
+			{
+				text-align: center;
+			}	
+		.wrapper .reviews_wrapper .reviews-person .reviews_img img
+			{
+				width: 290px;
+				height: 300px;
+			}	
+		.wrapper .sell_wrapper .sell-info .sell-box
+			{
+				width: auto;
+				display: inline-block;
+				float: none;
+				vertical-align: top;
+			}
+		.wrapper .sell_wrapper .sell-info .sell-box img
+			{
+				height: 300px;
+   				width: 290px;
+			}	
+		.wrapper .sell_wrapper .sell-meta button 
+			{
+				margin: auto;
+				float: none;
+				display: block;
+
+			}
+		.wrapper .sell_wrapper .sell-meta .sell-link
+			{
+				width: 100%;
+				float: none;
+				text-align: center;
+			}
+		.wrapper .sell_wrapper .sell-meta .sell-link
+			{
+				width: 97%;
+				padding: 0 27px 1% 2%;
+			}	
+		.wrapper footer .footer_wrapper .footer-info .footer-social
+			{
+				float: right;
+			}	
+		.wrapper footer .footer_wrapper .footer-info
+			{
+				text-align: center;
+			}
+					
+		.wrapper footer .footer_wrapper .footer-info .footer-copyright
+			{
+				clear: both;
+				width: 100%;
+				text-align: center;
+				float: none;
+				padding-top: 15px;
+				
+			}	
+		// .wrapper .header_wrapper header .header-info .info-terms .info-box ~ .info-box
+		// 	{
+		// 		margin-left: 0;
+		// 	}
+
+			.wrapper .sell_wrapper .sell-meta .sell-link
+				{
+					margin-top: 15px;
+				}
+			.wrapper .about_wrapper .about-info .about-box ~ .about-box
+				{
+					margin-left: 0;
+				}	
+
+				.wrapper .sell_wrapper .sell-info .sell-box ~ .sell-box
+					{
+						margin-left: 0;
+					}
+		.wrapper .reviews_wrapper .reviews-container .reviews-private
+			{
+				padding: 0 0 20px;
+			}
+		.wrapper .reviews_wrapper .reviews-container .reviews-private p
+			{
+				margin-top: 5px;
+			}
+
+		.wrapper .reviews_wrapper .reviews-person
+			{
+				width: 290px;
+				float: left;
+			}	
+			.wrapper .reviews_wrapper .reviews-person .reviews_img
+				{
+					display: block;
+					width: 100%;
+				}
+			.wrapper .reviews_wrapper .reviews-person .reviews_img img
+				{
+					width: 100%;
+				}	
+			.wrapper .reviews_wrapper .reviews-container
+				{
+					width: 45%;
+					float: left;
+				}	
+			.wrapper .reviews_wrapper .reviews-container .reviews-private
+					{
+						display: block;
+						height: 375px;
+					}	
+
+					
+
+
+	}
+
+@media screen and (max-width:768px)
+	{	
+
+		.wrapper .header_wrapper header .header-top .header-container
+			{
+				padding: 15px 0 26px;
+			}
+		.wrapper .header_wrapper header .header-top .header-container .header-logo
+			{
+				float: none;
+				width: 100%;
+				text-align: center;
+			}
+		.wrapper .header_wrapper header .header-top .header-container .header-logo a	
+			{
+				margin: 0 auto;
+			}
+		.wrapper .header_wrapper header .header-top .header-container .header-link
+			{
+				float: none;
+				width: 100%;
+				text-align: center;
+			}	
+		.wrapper footer .footer_wrapper .footer-info .footer-social ul
+			{
+				margin-left: 0;
+			}
+		.wrapper footer .footer_wrapper .footer-info .footer-logo
+			{
+				width: 100%;
+				text-align: center;
+			}	
+		.wrapper footer .footer_wrapper
+			{
+				padding: 15px 0 10px;
+			}	
+		.wrapper footer .footer_wrapper .footer-info .footer-social
+			{
+				float: none;
+				text-align: center;
+				clear: both;
+				padding-top: 10px;
+			}
+		.wrapper footer .footer_wrapper .footer-info .footer-social ul li
+			{
+				float: none;
+				display: inline-block;
+			}	
+		.privacy-modal .privacy-window h3
+			{
+				margin-top: 30px;
+			}
+		.price-modal .price-window
+			{
+				width: 70%;
+				margin-left: -35%;
+			}
+		.price-modal .price-window .feedback-link
+			{
+				width: 98%;
+			}
+		.wrapper .header_wrapper.price header .header-price
+			{
+				height: auto;
+				padding-bottom: 50px;
+			}
+		.wrapper .header_wrapper.price header .header-back a
+			{
+				float: none;
+				display: block;
+				margin: 11px auto;
+			}	
+		.wrapper .header_wrapper header nav ul li
+			{
+				margin-right: 10px;
+  				padding-left: 25px;
+			}	
+
+		.wrapper .reviews_wrapper .reviews-container
+			{
+				margin: 0 1%;
+			}	
+
+			.wrapper .reviews_wrapper .reviews-person
+				{
+					width: 40%;
+				}
+			.wrapper .reviews_wrapper .reviews-person .reviews_img img
+				{
+					width: 100%;
+					height: 100%;
+				}	
+	}
+@media screen and (max-width:560px)
+	{
+		.wrapper .sell_wrapper .sell-meta .sell-link p
+			{
+				width: 100%;
+				float: none;
+			}
+		.wrapper .sell_wrapper .sell-meta .sell-link .sell-phone 	
+			{
+				float: none;
+				width: 100%;
+				text-align: center;
+			}
+		.wrapper .feedback_wrapper .feedback-container .feedback-info
+			{
+				width: 99%;
+			}
+		.wrapper .feedback_wrapper .feedback-container .feedback-link
+			{
+				width: 99%;
+			}		
+		.wrapper .reviews_wrapper .reviews-person .reviews_img .reviews-meta p
+			{
+				font-weight: 400;
+				font-size: 20px;
+				line-height: 1.2;
+			}
+	}	
+
+@media screen and (max-width:500px)
+	{	
+		.wrapper .header_wrapper header .header-top .header-container .header-logo a
+			{
+				width: 85%;
+			}
+		.wrapper .header_wrapper header .header-top .header-container .header-logo a img
+			{
+				width: 100%;
+			}
+		.wrapper .header_wrapper header nav ul li
+			{
+				width: 100%;
+				margin-right: 0;
+				padding-left: 0;
+				background-image: none;
+			}
+		.wrapper .header_wrapper header nav ul li ~ li 
+			{
+				background-image: none;
+			}	
+		.wrapper footer .footer_wrapper .footer-info .footer-logo a img
+			{
+				width: 100%;
+			}	
+		.price-modal .price-window
+			{
+				width: 335px;
+				margin-left: -167.5px;
+			}	
+		.wrapper .header_wrapper.price header .header-price
+			{
+				margin-top: 15px;
+			}		
+	}
+
+@media screen and (max-width:320px)
+	{	
+	}
+

@@ -1,0 +1,1014 @@
+/* line 6, sass/style.scss */
+a {
+  text-decoration: none; }
+
+/* line 9, sass/style.scss */
+.clearfix:after {
+  content: ".";
+  visibility: hidden;
+  display: block;
+  height: 0;
+  clear: both; }
+
+/* line 17, sass/style.scss */
+sub, sup {
+  /* Specified in % so that the sup/sup is the
+  right size relative to the surrounding text */
+  font-size: 75%;
+  /* Zero out the line-height so that it doesn't
+  interfere with the positioning that follows */
+  line-height: 0;
+  /* Where the magic happens: makes all browsers position
+  the sup/sup properly, relative to the surrounding text */
+  position: relative;
+  /* Note that if you're using Eric Meyer's reset.css, this
+  is already set and you can remove this rule */
+  vertical-align: baseline; }
+
+/* line 36, sass/style.scss */
+sup {
+  /* Move the superscripted text up */
+  top: -0.5em; }
+
+/* line 42, sass/style.scss */
+sub {
+  /* Move the subscripted text down, but only
+  half as far down as the superscript moved up */
+  bottom: -0.25em; }
+
+/* line 49, sass/style.scss */
+html {
+  height: 100%; }
+
+/* line 54, sass/style.scss */
+body {
+  background: #8BBAD5;
+  -webkit-font-smoothing: subpixel-antialiased;
+  font-size: 100%; }
+
+/* line 60, sass/style.scss */
+.wrapper {
+  background: #badae9;
+  font-family: 'Open Sans', sans-serif;
+  /*price page*/ }
+  /* line 64, sass/style.scss */
+  .wrapper .header_wrapper {
+    background: #c0edf3 url("../img/header-fon.jpg") 0 0 repeat-x; }
+    /* line 67, sass/style.scss */
+    .wrapper .header_wrapper header {
+      background: url("../img/header-image.jpg") 50% 0 no-repeat; }
+      /* line 71, sass/style.scss */
+      .wrapper .header_wrapper header .header-top {
+        background: url("../img/header-layout.png") 0 0 repeat;
+        width: 100%; }
+        /* line 75, sass/style.scss */
+        .wrapper .header_wrapper header .header-top .header-container {
+          width: 1190px;
+          margin: 0 auto;
+          padding: 43px 0 26px 0;
+          overflow: hidden; }
+          /* line 81, sass/style.scss */
+          .wrapper .header_wrapper header .header-top .header-container .header-logo {
+            float: left;
+            margin-top: 9px; }
+            /* line 85, sass/style.scss */
+            .wrapper .header_wrapper header .header-top .header-container .header-logo a {
+              display: block;
+              width: 373px;
+              height: 49px; }
+            /* line 91, sass/style.scss */
+            .wrapper .header_wrapper header .header-top .header-container .header-logo span {
+              display: block;
+              font: 400 16px 'Open Sans';
+              color: #fff; }
+          /* line 98, sass/style.scss */
+          .wrapper .header_wrapper header .header-top .header-container .header-link {
+            float: right;
+            padding-right: 20px;
+            text-align: center; }
+            /* line 103, sass/style.scss */
+            .wrapper .header_wrapper header .header-top .header-container .header-link span {
+              font: 400 21px 'Open Sans';
+              color: #fff;
+              line-height: 21px; }
+            /* line 109, sass/style.scss */
+            .wrapper .header_wrapper header .header-top .header-container .header-link p {
+              font: 600 24px 'Open Sans';
+              color: #fff;
+              line-height: 24px;
+              margin-top: 5px; }
+      /* line 121, sass/style.scss */
+      .wrapper .header_wrapper header .header-info {
+        text-align: center; }
+        /* line 124, sass/style.scss */
+        .wrapper .header_wrapper header .header-info h2 {
+          font: 300 53px 'Open Sans';
+          margin-top: 14px;
+          color: #fff; }
+        /* line 130, sass/style.scss */
+        .wrapper .header_wrapper header .header-info .info-terms {
+          width: 1190px;
+          margin: 25px auto 0;
+          overflow: hidden;
+          text-align: center;
+          font-size: 0; }
+          /* line 138, sass/style.scss */
+          .wrapper .header_wrapper header .header-info .info-terms .info-box {
+            background: url("../img/header-layout.png") 0 0 repeat;
+            width: 288px;
+            height: 288px;
+            overflow: hidden;
+            display: inline-block;
+            position: relative;
+            font-size: 16px;
+            margin: 0 4px;
+            box-shadow: 0px 0px 2px 1px #aad2e4;
+            /*// & ~.info-box
+            // 	{
+            // 		margin-left: 12px;
+            // 	}*/ }
+            /* line 155, sass/style.scss */
+            .wrapper .header_wrapper header .header-info .info-terms .info-box img {
+              position: absolute;
+              left: 50%; }
+              /* line 160, sass/style.scss */
+              .wrapper .header_wrapper header .header-info .info-terms .info-box img.info-goods {
+                margin-top: 90px;
+                margin-left: -34px; }
+              /* line 165, sass/style.scss */
+              .wrapper .header_wrapper header .header-info .info-terms .info-box img.info-delivery {
+                margin-top: 127px;
+                margin-left: -42.5px; }
+              /* line 170, sass/style.scss */
+              .wrapper .header_wrapper header .header-info .info-terms .info-box img.info-order {
+                margin-top: 90px;
+                margin-left: -23px; }
+              /* line 175, sass/style.scss */
+              .wrapper .header_wrapper header .header-info .info-terms .info-box img.info-circle {
+                margin-top: 91px;
+                margin-left: -35px; }
+            /* line 181, sass/style.scss */
+            .wrapper .header_wrapper header .header-info .info-terms .info-box p {
+              font: 600 21px 'Open Sans';
+              color: #fff;
+              margin-top: 168px; }
+          /* line 188, sass/style.scss */
+          .wrapper .header_wrapper header .header-info .info-terms button {
+            float: right;
+            width: 290px;
+            height: 81px;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            background: transparent url("../img/price-buttons.png") 0 0 no-repeat;
+            margin-top: 11px;
+            margin-right: 6px; }
+            /* line 199, sass/style.scss */
+            .wrapper .header_wrapper header .header-info .info-terms button:hover {
+              background-position: 0px -91px; }
+            /* line 203, sass/style.scss */
+            .wrapper .header_wrapper header .header-info .info-terms button:active {
+              background-position: 0px -182px; }
+      /* line 212, sass/style.scss */
+      .wrapper .header_wrapper header nav {
+        background: #6cb1d0;
+        width: 100%;
+        position: relative;
+        z-index: 100;
+        height: auto !important;
+        margin-top: 6px; }
+        /* line 221, sass/style.scss */
+        .wrapper .header_wrapper header nav .sticky-menu {
+          background: #6cb1d0;
+          width: 100%;
+          text-align: center;
+          position: relative; }
+        /* line 228, sass/style.scss */
+        .wrapper .header_wrapper header nav .mobile {
+          float: left;
+          margin: 15px 0 15px 15px;
+          cursor: pointer;
+          display: none; }
+        /* line 235, sass/style.scss */
+        .wrapper .header_wrapper header nav ul {
+          overflow: hidden;
+          /*width: 1190px;*/
+          margin: 0 auto;
+          /*padding: 0 20px;*/ }
+          /* line 241, sass/style.scss */
+          .wrapper .header_wrapper header nav ul.mobile-list {
+            position: absolute;
+            background: transparent url("../img/header-layout.png") 0 0 repeat;
+            display: inline-block;
+            top: 56px;
+            left: 0px;
+            padding: 0 15px;
+            border: 1px solid #C0EDF3; }
+          /* line 252, sass/style.scss */
+          .wrapper .header_wrapper header nav ul li ~ li {
+            background: url("../img/menu-item.png") 0 50% no-repeat; }
+          /* line 257, sass/style.scss */
+          .wrapper .header_wrapper header nav ul li {
+            display: inline-block;
+            margin-right: 25px;
+            padding-left: 41px; }
+            /* line 262, sass/style.scss */
+            .wrapper .header_wrapper header nav ul li.mobile-li {
+              margin: 0;
+              padding: 0;
+              display: block;
+              background-image: none; }
+              /* line 268, sass/style.scss */
+              .wrapper .header_wrapper header nav ul li.mobile-li a {
+                padding: 5px 0; }
+            /* line 273, sass/style.scss */
+            .wrapper .header_wrapper header nav ul li a {
+              font: 400 27px 'Open Sans';
+              line-height: 27px;
+              color: #fff;
+              display: block;
+              padding: 10px 0;
+              -webkit-transition: color 0.3s ease;
+              -moz-transition: color 0.3s ease;
+              transition: color 0.3s ease; }
+              /* line 281, sass/style.scss */
+              .wrapper .header_wrapper header nav ul li a:hover {
+                color: #c0edf4; }
+  /* line 293, sass/style.scss */
+  .wrapper .brand_wrapper {
+    background: #fff;
+    padding-bottom: 85px;
+    position: relative; }
+    /* line 299, sass/style.scss */
+    .wrapper .brand_wrapper .link-goto {
+      text-align: center; }
+      /* line 302, sass/style.scss */
+      .wrapper .brand_wrapper .link-goto a {
+        display: block;
+        background: url("../img/nav-blue.png") 0 0 no-repeat;
+        width: 111px;
+        height: 51px;
+        margin: 0 auto; }
+    /* line 311, sass/style.scss */
+    .wrapper .brand_wrapper .brand-list-1 {
+      opacity: 0; }
+    /* line 315, sass/style.scss */
+    .wrapper .brand_wrapper .brand-list-2 {
+      opacity: 0; }
+    /* line 319, sass/style.scss */
+    .wrapper .brand_wrapper #brand-anchor {
+      position: absolute;
+      top: 30px;
+      height: 1px;
+      width: 100%; }
+    /* line 328, sass/style.scss */
+    .wrapper .brand_wrapper h2 {
+      color: #476476;
+      font: 300 53px 'Open Sans';
+      line-height: 53px;
+      text-align: center;
+      margin: 65px 0 74px; }
+    /* line 336, sass/style.scss */
+    .wrapper .brand_wrapper ul {
+      overflow: hidden;
+      width: 1190px;
+      margin: 0 auto;
+      text-align: center; }
+      /* line 342, sass/style.scss */
+      .wrapper .brand_wrapper ul li {
+        text-align: center;
+        width: 140px;
+        border: 1px solid #e4eff5;
+        /*border: 1px solid black;*/
+        float: left;
+        margin-bottom: 8px; }
+        /* line 350, sass/style.scss */
+        .wrapper .brand_wrapper ul li img {
+          width: 100%; }
+        /* line 354, sass/style.scss */
+        .wrapper .brand_wrapper ul li ~ li {
+          margin-left: 7px; }
+  /* line 364, sass/style.scss */
+  .wrapper .about_wrapper {
+    background: #c0ebf2 url("../img/work-fon.jpg") 0 0 repeat-x;
+    padding-bottom: 86px;
+    position: relative; }
+    /* line 369, sass/style.scss */
+    .wrapper .about_wrapper #about-anchor {
+      position: absolute;
+      top: 30px;
+      height: 1px;
+      width: 100%; }
+    /* line 380, sass/style.scss */
+    .wrapper .about_wrapper .link-goto a {
+      display: block;
+      background: url("../img/nav-white.png") 0 0 no-repeat;
+      width: 107px;
+      height: 53px;
+      margin: 0 auto; }
+    /* line 389, sass/style.scss */
+    .wrapper .about_wrapper h2 {
+      text-align: center;
+      font: 300 53px 'Open Sans';
+      line-height: 53px;
+      color: #fff;
+      margin: 66px 0 78px; }
+    /* line 397, sass/style.scss */
+    .wrapper .about_wrapper .about-show {
+      position: relative;
+      overflow: hidden; }
+    /* line 402, sass/style.scss */
+    .wrapper .about_wrapper .about-info {
+      width: 1190px;
+      margin: 0 auto;
+      overflow: hidden;
+      text-align: center; }
+      /* line 408, sass/style.scss */
+      .wrapper .about_wrapper .about-info.info-list-1 {
+        position: relative;
+        left: 100%; }
+      /* line 413, sass/style.scss */
+      .wrapper .about_wrapper .about-info.info-list-2 {
+        position: relative;
+        right: 100%; }
+      /* line 420, sass/style.scss */
+      .wrapper .about_wrapper .about-info .about-box {
+        width: 288px;
+        height: 288px;
+        background: #6baccc;
+        float: left;
+        margin-bottom: 12px;
+        position: relative; }
+        /* line 428, sass/style.scss */
+        .wrapper .about_wrapper .about-info .about-box .about-img {
+          position: absolute;
+          height: 58%;
+          width: 100%;
+          top: 0;
+          left: 0; }
+        /* line 439, sass/style.scss */
+        .wrapper .about_wrapper .about-info .about-box .about-title {
+          position: absolute;
+          height: 42%;
+          width: 100%;
+          bottom: 0;
+          left: 0; }
+        /* line 448, sass/style.scss */
+        .wrapper .about_wrapper .about-info .about-box ~ .about-box {
+          margin-left: 12px; }
+        /* line 452, sass/style.scss */
+        .wrapper .about_wrapper .about-info .about-box img {
+          position: absolute;
+          left: 0;
+          bottom: 10px;
+          right: 0;
+          display: block;
+          margin: auto; }
+        /* line 464, sass/style.scss */
+        .wrapper .about_wrapper .about-info .about-box p {
+          font: 600 21px 'Open Sans';
+          line-height: 24px;
+          color: #fff;
+          text-align: center; }
+  /* line 475, sass/style.scss */
+  .wrapper .reviews_wrapper {
+    background: #fff;
+    overflow: hidden;
+    padding-bottom: 45px;
+    position: relative; }
+    /* line 481, sass/style.scss */
+    .wrapper .reviews_wrapper #comment-anchor {
+      position: absolute;
+      top: 30px;
+      height: 1px;
+      width: 100%; }
+    /* line 492, sass/style.scss */
+    .wrapper .reviews_wrapper .link-goto a {
+      display: block;
+      background: url("../img/nav-blue.png") 0 0 no-repeat;
+      width: 111px;
+      height: 51px;
+      margin: 0 auto; }
+    /* line 501, sass/style.scss */
+    .wrapper .reviews_wrapper h2 {
+      color: #476476;
+      font: 300 53px 'Open Sans';
+      line-height: 53px;
+      text-align: center;
+      margin: 60px 0 77px 0; }
+    /* line 509, sass/style.scss */
+    .wrapper .reviews_wrapper .reviews-person {
+      width: 1190px;
+      margin: 0 auto;
+      opacity: 0; }
+      /* line 515, sass/style.scss */
+      .wrapper .reviews_wrapper .reviews-person .reviews_img {
+        float: left;
+        cursor: pointer;
+        -webkit-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        transition: all 0.3s ease; }
+        /* line 520, sass/style.scss */
+        .wrapper .reviews_wrapper .reviews-person .reviews_img.active {
+          -webkit-transform: scale(1.04);
+          -moz-transform: scale(1.04);
+          -ms-transform: scale(1.04);
+          -o-transform: scale(1.04);
+          transform: scale(1.04);
+          box-shadow: 0px 0px 3px 1px #a8cce0; }
+        /* line 525, sass/style.scss */
+        .wrapper .reviews_wrapper .reviews-person .reviews_img:hover {
+          -webkit-transform: scale(1.04);
+          -moz-transform: scale(1.04);
+          -ms-transform: scale(1.04);
+          -o-transform: scale(1.04);
+          transform: scale(1.04);
+          box-shadow: 0px 0px 3px 1px #a8cce0; }
+        /* line 532, sass/style.scss */
+        .wrapper .reviews_wrapper .reviews-person .reviews_img img {
+          display: block;
+          width: 290px;
+          height: 300px; }
+        /* line 538, sass/style.scss */
+        .wrapper .reviews_wrapper .reviews-person .reviews_img ~ .reviews_img {
+          margin-left: 10px; }
+        /* line 542, sass/style.scss */
+        .wrapper .reviews_wrapper .reviews-person .reviews_img .reviews-meta {
+          background: #6cb1d0 url("../img/comment-layout.jpg") 0 0 repeat-x;
+          border-top: 1px solid #8cbbd5;
+          border-bottom: 1px solid #8cbbd5;
+          padding: 23px 0 37px 23px;
+          width: 267px; }
+          /* line 550, sass/style.scss */
+          .wrapper .reviews_wrapper .reviews-person .reviews_img .reviews-meta p {
+            font: 600 21px 'Open Sans';
+            line-height: 21px;
+            color: #fff; }
+    /* line 559, sass/style.scss */
+    .wrapper .reviews_wrapper .reviews-container {
+      border: 1px solid #e2eef5;
+      width: 1190px;
+      opacity: 0;
+      margin: 15px auto 98px;
+      position: relative;
+      min-height: 360px;
+      text-overflow: ellipsis; }
+      /* line 569, sass/style.scss */
+      .wrapper .reviews_wrapper .reviews-container .reviews-private {
+        position: relative;
+        padding: 21px 26px;
+        display: none;
+        top: 0;
+        left: 0;
+        overflow: hidden; }
+        /* line 579, sass/style.scss */
+        .wrapper .reviews_wrapper .reviews-container .reviews-private.active {
+          display: block; }
+        /* line 583, sass/style.scss */
+        .wrapper .reviews_wrapper .reviews-container .reviews-private h4 {
+          color: #476476;
+          font: 400 28px 'Open Sans';
+          line-height: 28px; }
+        /* line 590, sass/style.scss */
+        .wrapper .reviews_wrapper .reviews-container .reviews-private p {
+          color: #476476;
+          font: 400 15px 'Open Sans';
+          margin-top: 24px;
+          line-height: 1.5em; }
+  /* line 601, sass/style.scss */
+  .wrapper .sell_wrapper {
+    background: #c0ecf4 url("../img/assort-fon.jpg") 0 0 repeat-x;
+    overflow: hidden;
+    padding-bottom: 99px;
+    position: relative; }
+    /* line 607, sass/style.scss */
+    .wrapper .sell_wrapper #sell-anchor {
+      position: absolute;
+      top: 30px;
+      height: 1px;
+      width: 100%; }
+    /* line 616, sass/style.scss */
+    .wrapper .sell_wrapper .link-goto {
+      position: relative;
+      z-index: 999; }
+      /* line 620, sass/style.scss */
+      .wrapper .sell_wrapper .link-goto a {
+        display: block;
+        background: url("../img/nav-white.png") 0 0 no-repeat;
+        width: 107px;
+        height: 53px;
+        margin: 0 auto; }
+    /* line 629, sass/style.scss */
+    .wrapper .sell_wrapper h2 {
+      color: #fff;
+      font: 300 53px 'Open Sans';
+      line-height: 53px;
+      text-align: center;
+      margin: 68px 0 76px; }
+    /* line 637, sass/style.scss */
+    .wrapper .sell_wrapper .sell-show {
+      position: relative;
+      overflow: hidden; }
+    /* line 642, sass/style.scss */
+    .wrapper .sell_wrapper .sell-list-1 {
+      top: -500px; }
+    /* line 647, sass/style.scss */
+    .wrapper .sell_wrapper .sell-list-2 {
+      bottom: -500px; }
+    /* line 651, sass/style.scss */
+    .wrapper .sell_wrapper .sell-info {
+      width: 1190px;
+      margin: 0 auto;
+      overflow: hidden;
+      position: relative; }
+      /* line 658, sass/style.scss */
+      .wrapper .sell_wrapper .sell-info .sell-box {
+        float: left;
+        margin-bottom: 10px; }
+        /* line 662, sass/style.scss */
+        .wrapper .sell_wrapper .sell-info .sell-box ~ .sell-box {
+          margin-left: 10px; }
+        /* line 666, sass/style.scss */
+        .wrapper .sell_wrapper .sell-info .sell-box img {
+          display: block;
+          width: 290px;
+          height: 300px; }
+        /* line 672, sass/style.scss */
+        .wrapper .sell_wrapper .sell-info .sell-box .sell-title {
+          background: #6aabcc;
+          padding: 18px 0 0px 25px;
+          height: 82px; }
+          /* line 677, sass/style.scss */
+          .wrapper .sell_wrapper .sell-info .sell-box .sell-title p {
+            font: 400 27px 'Open Sans';
+            color: #fff;
+            line-height: 24px; }
+          /* line 683, sass/style.scss */
+          .wrapper .sell_wrapper .sell-info .sell-box .sell-title span {
+            font: 400 18px 'Open Sans';
+            color: #fff;
+            line-height: 20px; }
+    /* line 693, sass/style.scss */
+    .wrapper .sell_wrapper .sell-meta {
+      width: 1190px;
+      margin: 0px auto;
+      overflow: hidden;
+      opacity: 0; }
+      /* line 699, sass/style.scss */
+      .wrapper .sell_wrapper .sell-meta button {
+        float: right;
+        margin-left: 10px;
+        width: 290px;
+        height: 81px;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        background: transparent url("../img/price-buttons.png") 0 0 no-repeat; }
+        /* line 710, sass/style.scss */
+        .wrapper .sell_wrapper .sell-meta button:hover {
+          background-position: 0px -91px; }
+        /* line 714, sass/style.scss */
+        .wrapper .sell_wrapper .sell-meta button:active {
+          background-position: 0px -182px; }
+      /* line 720, sass/style.scss */
+      .wrapper .sell_wrapper .sell-meta .sell-link {
+        float: right;
+        width: 540px;
+        background: #6cb1d0;
+        overflow: hidden;
+        padding: 0 27px 10px 23px; }
+        /* line 727, sass/style.scss */
+        .wrapper .sell_wrapper .sell-meta .sell-link p {
+          font: 400 21px 'Open Sans';
+          color: #fff;
+          float: left;
+          margin-top: 22px; }
+        /* line 734, sass/style.scss */
+        .wrapper .sell_wrapper .sell-meta .sell-link .sell-phone {
+          float: right; }
+          /* line 737, sass/style.scss */
+          .wrapper .sell_wrapper .sell-meta .sell-link .sell-phone p {
+            float: none;
+            font: 600 24px 'Open Sans';
+            margin: 3px 13px 0 0; }
+  /* line 750, sass/style.scss */
+  .wrapper .feedback_wrapper {
+    background: #fff;
+    padding-bottom: 10px;
+    position: relative; }
+    /* line 755, sass/style.scss */
+    .wrapper .feedback_wrapper #feedback-anchor {
+      position: absolute;
+      top: 30px;
+      height: 1px;
+      width: 100%; }
+    /* line 764, sass/style.scss */
+    .wrapper .feedback_wrapper .link-goto {
+      text-align: center; }
+      /* line 767, sass/style.scss */
+      .wrapper .feedback_wrapper .link-goto a {
+        display: block;
+        background: url("../img/nav-blue.png") 0 0 no-repeat;
+        width: 111px;
+        height: 51px;
+        margin: 0 auto; }
+    /* line 776, sass/style.scss */
+    .wrapper .feedback_wrapper h2 {
+      color: #476476;
+      font: 300 53px 'Open Sans';
+      line-height: 53px;
+      text-align: center;
+      margin: 62px 0 66px; }
+    /* line 784, sass/style.scss */
+    .wrapper .feedback_wrapper .feedback-container {
+      width: 1190px;
+      margin: 50px auto 0;
+      overflow: hidden; }
+      /* line 789, sass/style.scss */
+      .wrapper .feedback_wrapper .feedback-container .feedback-info {
+        float: left;
+        width: 589px;
+        height: 470px;
+        border: 1px solid #e2eef5;
+        text-align: center;
+        position: relative;
+        right: 100%; }
+        /* line 798, sass/style.scss */
+        .wrapper .feedback_wrapper .feedback-container .feedback-info h6 {
+          font: 400 27px 'Open Sans';
+          margin-top: 50px;
+          color: #476476; }
+        /* line 804, sass/style.scss */
+        .wrapper .feedback_wrapper .feedback-container .feedback-info p {
+          font: 400 21px 'Open Sans';
+          color: #476476;
+          margin-top: 90px; }
+        /* line 810, sass/style.scss */
+        .wrapper .feedback_wrapper .feedback-container .feedback-info .feedback-phone {
+          margin-top: 20px; }
+          /* line 813, sass/style.scss */
+          .wrapper .feedback_wrapper .feedback-container .feedback-info .feedback-phone p {
+            margin: 0; }
+            /* line 816, sass/style.scss */
+            .wrapper .feedback_wrapper .feedback-container .feedback-info .feedback-phone p + p {
+              margin-left: 25px; }
+      /* line 826, sass/style.scss */
+      .wrapper .feedback_wrapper .feedback-container .feedback-link {
+        float: right;
+        position: relative;
+        width: 589px;
+        height: 470px;
+        border: 1px solid #e2eef5;
+        text-align: center;
+        left: 100%; }
+        /* line 835, sass/style.scss */
+        .wrapper .feedback_wrapper .feedback-container .feedback-link h6 {
+          font: 400 27px 'Open Sans';
+          margin-top: 50px;
+          color: #476476; }
+        /* line 841, sass/style.scss */
+        .wrapper .feedback_wrapper .feedback-container .feedback-link p {
+          font: 400 14px 'Open Sans';
+          color: #476476; }
+          /* line 845, sass/style.scss */
+          .wrapper .feedback_wrapper .feedback-container .feedback-link p > span {
+            text-decoration: underline;
+            cursor: pointer; }
+        /* line 851, sass/style.scss */
+        .wrapper .feedback_wrapper .feedback-container .feedback-link form {
+          display: block;
+          width: 291px;
+          margin: auto;
+          margin-top: 9px; }
+          /* line 857, sass/style.scss */
+          .wrapper .feedback_wrapper .feedback-container .feedback-link form label {
+            display: block;
+            text-align: left;
+            margin-left: 17px;
+            color: #476476;
+            font: 400 21px 'Open Sans';
+            margin-bottom: 1px; }
+          /* line 866, sass/style.scss */
+          .wrapper .feedback_wrapper .feedback-container .feedback-link form input {
+            display: inline-block;
+            width: 271px;
+            border: 1px solid transparent;
+            outline: none;
+            background: #8cbbd5;
+            color: #fff;
+            padding: 8px 0 5px  18px;
+            font: 400 21px 'Open Sans';
+            margin-bottom: 6px;
+            -webkit-box-shadow: none !important;
+            -moz-box-shadow: none !important;
+            box-shadow: none !important; }
+            /* line 881, sass/style.scss */
+            .wrapper .feedback_wrapper .feedback-container .feedback-link form input:focus {
+              border: 1px solid #3B5998; }
+          /* line 887, sass/style.scss */
+          .wrapper .feedback_wrapper .feedback-container .feedback-link form ::-webkit-input-placeholder {
+            color: #fff;
+            font: 400 21px 'Open Sans'; }
+          /* line 893, sass/style.scss */
+          .wrapper .feedback_wrapper .feedback-container .feedback-link form :-moz-placeholder {
+            color: #fff;
+            font: 400 21px 'Open Sans'; }
+          /* line 899, sass/style.scss */
+          .wrapper .feedback_wrapper .feedback-container .feedback-link form ::-moz-placeholder {
+            color: #fff;
+            font: 400 21px 'Open Sans'; }
+          /* line 905, sass/style.scss */
+          .wrapper .feedback_wrapper .feedback-container .feedback-link form :-ms-input-placeholder {
+            color: #fff;
+            font: 400 21px 'Open Sans'; }
+        /* line 913, sass/style.scss */
+        .wrapper .feedback_wrapper .feedback-container .feedback-link button {
+          display: block;
+          width: 290px;
+          height: 81px;
+          border: none;
+          outline: none;
+          cursor: pointer;
+          background: transparent url("../img/price-buttons.png") 0 0 no-repeat;
+          margin: 16px auto 6px; }
+          /* line 923, sass/style.scss */
+          .wrapper .feedback_wrapper .feedback-container .feedback-link button:hover {
+            background-position: 0px -91px; }
+          /* line 927, sass/style.scss */
+          .wrapper .feedback_wrapper .feedback-container .feedback-link button:active {
+            background-position: 0px -182px; }
+  /* line 936, sass/style.scss */
+  .wrapper footer {
+    background: #fff;
+    padding-top: 104px;
+    position: relative; }
+    /* line 941, sass/style.scss */
+    .wrapper footer img.footer-dog {
+      position: absolute;
+      left: 50%;
+      margin-left: -109.5px;
+      bottom: 0;
+      z-index: 1; }
+    /* line 949, sass/style.scss */
+    .wrapper footer .footer_wrapper {
+      width: 100%;
+      position: relative;
+      z-index: 100;
+      background: url("../img/footer-layout.png") 0 0 repeat;
+      padding: 46px 0 30px; }
+      /* line 956, sass/style.scss */
+      .wrapper footer .footer_wrapper .footer-info {
+        width: 1190px;
+        overflow: hidden;
+        margin: 0 auto; }
+        /* line 961, sass/style.scss */
+        .wrapper footer .footer_wrapper .footer-info .footer-logo {
+          float: left; }
+          /* line 964, sass/style.scss */
+          .wrapper footer .footer_wrapper .footer-info .footer-logo p {
+            font: 400 14px 'Open Sans';
+            color: #fff; }
+        /* line 972, sass/style.scss */
+        .wrapper footer .footer_wrapper .footer-info .footer-social {
+          float: left; }
+          /* line 975, sass/style.scss */
+          .wrapper footer .footer_wrapper .footer-info .footer-social ul {
+            margin-left: 88px;
+            overflow: hidden; }
+            /* line 979, sass/style.scss */
+            .wrapper footer .footer_wrapper .footer-info .footer-social ul li {
+              float: left;
+              margin-right: 8px; }
+              /* line 983, sass/style.scss */
+              .wrapper footer .footer_wrapper .footer-info .footer-social ul li a {
+                border: 2px solid transparent;
+                display: block;
+                width: 58px;
+                height: 58px;
+                -webkit-border-radius: 100%;
+                -moz-border-radius: 100%;
+                -ms-border-radius: 100%;
+                -o-border-radius: 100%;
+                border-radius: 100%;
+                -webkit-transition: all 0.3s ease;
+                -moz-transition: all 0.3s ease;
+                transition: all 0.3s ease; }
+                /* line 991, sass/style.scss */
+                .wrapper footer .footer_wrapper .footer-info .footer-social ul li a:hover {
+                  border: 2px solid #fff; }
+        /* line 1000, sass/style.scss */
+        .wrapper footer .footer_wrapper .footer-info .footer-copyright {
+          float: right; }
+          /* line 1003, sass/style.scss */
+          .wrapper footer .footer_wrapper .footer-info .footer-copyright p {
+            font: 400 15px 'Open Sans';
+            line-height: 15px;
+            color: #fff;
+            margin-top: 2px; }
+  /* line 1016, sass/style.scss */
+  .wrapper .header_wrapper.price {
+    /*background:#fff  url($img-dir + "price-header.png") 0 0 repeat;*/
+    background: white url("../img/price-layout.png") 0 0 repeat; }
+    /* line 1020, sass/style.scss */
+    .wrapper .header_wrapper.price header {
+      background: url("../img/price-img.jpg") 50% 0 no-repeat; }
+      /* line 1023, sass/style.scss */
+      .wrapper .header_wrapper.price header .header-top {
+        border-bottom: 1px solid #6fa4c8;
+        background: transparent url("../img/price-header.png") 0 0 repeat;
+        width: 100%; }
+      /* line 1029, sass/style.scss */
+      .wrapper .header_wrapper.price header .header-back {
+        height: 660px;
+        width: 1190px;
+        margin: auto;
+        overflow: hidden; }
+        /* line 1035, sass/style.scss */
+        .wrapper .header_wrapper.price header .header-back a {
+          float: right;
+          width: 291px;
+          height: 81px;
+          background: transparent url("../img/back-buttons.png") 0 0 no-repeat;
+          margin-top: 11px; }
+          /* line 1042, sass/style.scss */
+          .wrapper .header_wrapper.price header .header-back a:hover {
+            background-position: 0 -91px; }
+          /* line 1046, sass/style.scss */
+          .wrapper .header_wrapper.price header .header-back a:active {
+            background-position: 0 -182px; }
+      /* line 1053, sass/style.scss */
+      .wrapper .header_wrapper.price header .header-price {
+        width: 1190px;
+        height: 290px;
+        margin: 108px auto 0;
+        overflow: hidden;
+        background: url("../img/price-content.png") 0 0 repeat; }
+        /* line 1060, sass/style.scss */
+        .wrapper .header_wrapper.price header .header-price p {
+          font: 300 48px 'Open Sans';
+          color: #fff;
+          text-align: center;
+          margin-top: 50px;
+          line-height: 52px; }
+          /* line 1067, sass/style.scss */
+          .wrapper .header_wrapper.price header .header-price p + p {
+            margin-top: 0; }
+  /* line 1076, sass/style.scss */
+  .wrapper footer.footer-price {
+    padding: 0; }
+  /* line 1080, sass/style.scss */
+  .wrapper .footer_wrapper.price {
+    background: url("../img/price-footer.png") 0 0 repeat; }
+
+/*privacy window*/
+/* line 1089, sass/style.scss */
+.privacy-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: url("../img/privacy-fon.png") 0 0 repeat;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+  display: none; }
+  /* line 1099, sass/style.scss */
+  .privacy-modal .privacy-window {
+    background: #fff;
+    width: 1100px;
+    height: 448px;
+    text-align: left;
+    padding: 0 45px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -224px;
+    margin-left: -595px;
+    z-index: 9999;
+    word-wrap: break-word; }
+    /* line 1114, sass/style.scss */
+    .privacy-modal .privacy-window span {
+      position: absolute;
+      top: 18px;
+      right: 18px;
+      cursor: pointer; }
+    /* line 1121, sass/style.scss */
+    .privacy-modal .privacy-window h3 {
+      font: 600 36px 'Open Sans';
+      color: #476476;
+      margin: 15px;
+      text-align: center; }
+    /* line 1128, sass/style.scss */
+    .privacy-modal .privacy-window p {
+      font: 400 16px 'Open Sans';
+      color: #476476;
+      margin-top: 15px; }
+
+/*price window*/
+/* line 1139, sass/style.scss */
+.price-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: url("../img/privacy-fon.png") 0 0 repeat;
+  width: 100%;
+  height: 100%;
+  z-index: 997;
+  display: none; }
+  /* line 1149, sass/style.scss */
+  .price-modal .price-window {
+    width: 591px;
+    height: 500px;
+    background: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -250px;
+    margin-left: -295px; }
+    /* line 1159, sass/style.scss */
+    .price-modal .price-window span.close {
+      position: absolute;
+      top: 18px;
+      right: 18px;
+      cursor: pointer; }
+    /* line 1166, sass/style.scss */
+    .price-modal .price-window .feedback-link {
+      float: right;
+      width: 589px;
+      height: 470px;
+      border: 1px solid #e2eef5;
+      text-align: center;
+      background: #fff; }
+      /* line 1174, sass/style.scss */
+      .price-modal .price-window .feedback-link h6 {
+        font: 400 27px 'Open Sans';
+        margin-top: 50px;
+        color: #476476; }
+      /* line 1180, sass/style.scss */
+      .price-modal .price-window .feedback-link p {
+        font: 400 14px 'Open Sans';
+        color: #476476; }
+        /* line 1184, sass/style.scss */
+        .price-modal .price-window .feedback-link p > span {
+          text-decoration: underline;
+          cursor: pointer; }
+      /* line 1190, sass/style.scss */
+      .price-modal .price-window .feedback-link form {
+        display: inline-block;
+        margin-top: 9px; }
+        /* line 1194, sass/style.scss */
+        .price-modal .price-window .feedback-link form label {
+          display: block;
+          text-align: left;
+          margin-left: 17px;
+          color: #476476;
+          font: 400 21px 'Open Sans';
+          margin-bottom: 1px; }
+        /* line 1203, sass/style.scss */
+        .price-modal .price-window .feedback-link form input {
+          display: inline-block;
+          width: 271px;
+          border: 1px solid transparent;
+          outline: none;
+          background: #8cbbd5;
+          color: #fff;
+          padding: 8px 0 5px  18px;
+          font: 400 21px 'Open Sans';
+          margin-bottom: 6px;
+          -webkit-box-shadow: none !important;
+          -moz-box-shadow: none !important;
+          box-shadow: none !important; }
+          /* line 1217, sass/style.scss */
+          .price-modal .price-window .feedback-link form input:focus {
+            border: 1px solid #3B5998; }
+        /* line 1222, sass/style.scss */
+        .price-modal .price-window .feedback-link form ::-webkit-input-placeholder {
+          color: #fff;
+          font: 400 21px 'Open Sans'; }
+        /* line 1228, sass/style.scss */
+        .price-modal .price-window .feedback-link form :-moz-placeholder {
+          color: #fff;
+          font: 400 21px 'Open Sans'; }
+        /* line 1233, sass/style.scss */
+        .price-modal .price-window .feedback-link form ::-moz-placeholder {
+          color: #fff;
+          font: 400 21px 'Open Sans'; }
+        /* line 1238, sass/style.scss */
+        .price-modal .price-window .feedback-link form :-ms-input-placeholder {
+          color: #fff;
+          font: 400 21px 'Open Sans'; }
+      /* line 1245, sass/style.scss */
+      .price-modal .price-window .feedback-link button {
+        display: block;
+        width: 290px;
+        height: 81px;
+        cursor: pointer;
+        border: none;
+        outline: none;
+        background: transparent url("../img/request-buttons.png") 0 0 no-repeat;
+        margin: 16px auto; }
+        /* line 1255, sass/style.scss */
+        .price-modal .price-window .feedback-link button:hover {
+          background-position: 0px -91px; }
+        /* line 1259, sass/style.scss */
+        .price-modal .price-window .feedback-link button:active {
+          background-position: 0px -182px; }
